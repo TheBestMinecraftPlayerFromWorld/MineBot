@@ -46,7 +46,6 @@ def x():
                 os.mkdir(k)
             l = len(os.listdir(k))
             cv2.imwrite(os.path.join(k,f"img_{l}.png"), image)
-import threading
 def lstnr():
     with Listener(
             on_press=on_press,
