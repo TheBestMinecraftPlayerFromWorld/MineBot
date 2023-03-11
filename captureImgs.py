@@ -1,7 +1,6 @@
 from pynput.keyboard import Key, Listener
 from time import sleep as wait
 from pynput import mouse
-import keyboard
 import pynput
 # Python program to take
 # screenshots
